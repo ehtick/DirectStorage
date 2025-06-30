@@ -26,6 +26,11 @@ The Samples directory contains sample code that demonstrates how to use the Dire
     
     <img src="Samples/GpuDecompressionBenchmark/GpuDecompressionBenchmarkRender.png" alt="GpuDecompressionBenchmark screenshot" height="200">
 
+4. [EnqueueRequestsDemo](Samples/EnqueueRequestsDemo/README.md): This sample demonstrates the use of `EnqueueRequests()` and the destination type
+`DSTORAGE_REQUEST_DESTINATION_MULTIPLE_SUBRESOURCES_RANGE`.
+    
+    <img src="Samples/EnqueueRequestsDemo/EnqueueRequestsDemo.png" alt="EnqueueRequestsDemo screenshot" height="200">
+
 ## GDeflate Reference Implementation
 This directory contains codec source and sample code that demonstrates how to use [GDeflate](GDeflate/README.md).
 
@@ -54,6 +59,7 @@ Open the following Visual Studio solutions and build
 Samples\HelloDirectStorage\HelloDirectStorage.sln
 Samples\BulkLoadDemo\BulkLoadDemo.sln
 Samples\GpuDecompressionBenchmark\GpuDecompressionBenchmark.sln
+Samples\EnqueueRequestsDemo\EnqueueRequestsDemo.sln
 ```
 
 ## Related links
